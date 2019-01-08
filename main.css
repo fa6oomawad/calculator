@@ -46,3 +46,6 @@ body {
     cursor: pointer;
     margin-top:3px;
 }
+.btn:hover{
+    background-color:#316672;
+}
