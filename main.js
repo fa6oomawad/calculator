@@ -1,13 +1,12 @@
 $(document).ready(function(){
-
-    $(".btn").click(function(){
-        var value=$(this).text();
-        console.log(value);
-        $("#calc").attr("value",value);
-        $("#calc").attr("placeholder",value);
+        $(".btn").click(function(){
+            var i = $(this).text();
+            $("#calc").append(i); });
     })
+  
+        
 
 
+   
 
 
-});
