@@ -51,7 +51,11 @@ $(document).ready(function(){
         });
 
 
-
+        $(".githubCode i").mouseover(function(){
+            console.log('ollll');
+            $('.githubCode p').fadeIn(3000).css("right","20%");
+            $('.githubCode p').css("display","inline");
+            })
 
 
     })

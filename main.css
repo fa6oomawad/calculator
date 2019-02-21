@@ -57,3 +57,40 @@ body {
     width:140px;
     font-size:30px;
 }
+
+.githubCode {
+    width:200px;
+    height: 60px;
+    background-color:rgba(143, 143, 140, 0.863);
+    position: absolute;
+    top:85%;
+    right:5%;
+    z-index:0;
+    border-radius: 20%;
+}
+.githubCode i {
+    font-size: 30px;
+    color:rgb(255, 244, 244);
+    cursor: pointer;
+    display: inline;
+    position: absolute;
+    top:20%;
+    right:5%;
+    z-index:11;
+}
+.githubCode i:hover {
+    color:blue;
+}
+
+.githubCode p {
+    z-index:111;
+    display: none;
+    color:white;
+    font-family: monospace;
+    position: absolute;
+    top:20%;
+    right:0%;
+    transition: all .6s ease-out;
+
+    
+}
